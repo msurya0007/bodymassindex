@@ -1,0 +1,46 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('https://qph.cf2.quoracdn.net/main-qimg-8f64e4f11eec0b6f2650eccbcd22ef43-pjlq');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box label,
+.box input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.box button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #0056b3;
+}
